@@ -76,11 +76,6 @@ body {
   align-items: center;
 }
 
-.clear {
-  width: 100%;
-  grid-column: 1/3;
-}
-
 .backspace svg {
   width: 30px;
 }

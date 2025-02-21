@@ -52,7 +52,10 @@ const clear = () => {
 };
 
 const makeExpStringCompatible = () => {
-  return expString.replaceAll("÷", "/").replaceAll("x", "*");
+  return expString
+    .replaceAll("÷", "/")
+    .replaceAll("x", "*")
+    .replaceAll("%", "/100");
 };
 
 const evaluatePercentage = () => {
